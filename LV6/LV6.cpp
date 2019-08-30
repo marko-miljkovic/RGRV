@@ -352,8 +352,8 @@ int main(int argc, char** argv) {
 		/*string ty = type2str(cDepthImage.type());
 		printf("Matrix: %s %dx%d \n", ty.c_str(), cDepthImage.cols, cDepthImage.rows);*/
 
-		namedWindow("Depth Image", WINDOW_AUTOSIZE);
-		imshow("Depth Image", imgRGB);
+		namedWindow("RGB Image", WINDOW_AUTOSIZE);
+		imshow("RGB Image", imgRGB);
 
 		ShowDominantPlane(dominantPlane, cDepthImage);
 
